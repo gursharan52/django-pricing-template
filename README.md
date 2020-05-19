@@ -1,0 +1,1 @@
+# django-pricing-template
