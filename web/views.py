@@ -12,6 +12,9 @@ def subscriber_price(request):
     obj= subscriber.objects.all()  
     return render(request, 'subscriber.html', {'data':obj})
     
+def cart(request, pk):
+    obj= subsciption.objects.get(pk=pk) 
+    return render(request, 'cart.html', {'data':obj})
 
 
 
